@@ -4,4 +4,8 @@ release2 update from github
 
 file changed but not committed
 
+commit1
+commit2
+
+stash1
 stash2
