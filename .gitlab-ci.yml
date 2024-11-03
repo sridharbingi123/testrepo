@@ -1,0 +1,24 @@
+stages:
+  - build
+  - test
+  - deploy
+
+sb_build_job:
+  stage: build
+  script:
+    - echo "Building project..."
+    # Insert build steps here
+
+sb_test_job:
+  stage: test
+  script:
+    - echo "Running tests..."
+    # Insert test steps here
+
+sb_deploy_job:
+  stage: deploy
+  script:
+    - echo "Deploying project..."
+    # Insert deployment steps here
+  only:
+    - main  # Run only on the main branch
