@@ -21,4 +21,4 @@ sb_deploy_job:
     - echo "Deploying project..."
     # Insert deployment steps here
   only:
-    - main  # Run only on the main branch
+    - main  # Run only on the main branch from github
